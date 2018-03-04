@@ -115,9 +115,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges (i.e. they can install software on)
   on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <a href="#setup">below</a>). Internet access is required for the workshop.
+  In preparation for the Git lesson, participants must have a <a href="https://github.com/">GitHub</a> account.
+  They are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
